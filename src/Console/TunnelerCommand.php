@@ -19,7 +19,7 @@ class TunnelerCommand extends Command {
 
     public function handle(){
         try {
-            $result = dispatch_now(new CreateTunnel());
+            $result = dispatch_sync(new CreateTunnel());
         }catch (\ErrorException $e){
             $this->error($e->getMessage());
             return 1;

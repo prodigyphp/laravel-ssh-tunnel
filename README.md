@@ -1,5 +1,5 @@
-# Deprecated
-It has been about four years since we have used this package internally and we are no longer in a position to continue supporting it. If anyone in the community would like to take over support of the package, please let us know and we can coordinate a transition.
+# Transition notice – March, 2023
+We're taking over maintenance of this package (formerly stechstudio/laravel-ssh-tunnel) from Signature Tech Studio. Huge thanks to the work of @bubba-h57 and the rest of the contributors who have made this package great.
 
 # Laravel SSH Tunnel
 Access a service on a remote host, via an SSH Tunnel! For example, people have been asking how to connect to a MySQL server over SSH in PHP for years.
@@ -17,7 +17,7 @@ So we wrote this package. We hope you enjoy it!
 ## Installation
 
 ```
-composer require stechstudio/laravel-ssh-tunnel
+composer require prodigyphp/laravel-ssh-tunnel
 ```
 ## Configuration
 All configuration can and should be done in your `.env` file.

@@ -1,6 +1,6 @@
 {
-    "name": "stechstudio/laravel-ssh-tunnel",
-    "description": "Easy creation & maintenance of an SSH Tunnel for Laravel/Lumen",
+    "name": "prodigyphp/laravel-ssh-tunnel",
+    "description": "Easy creation & maintenance of an SSH Tunnel for Laravel",
     "type": "library",
     "license": "MIT",
     "keywords": [
@@ -21,8 +21,8 @@
     },
     "authors": [
         {
-            "name": "Bubba Hines",
-            "email": "rob@stechstudio.com"
+            "name": "Stephen Bateman",
+            "email": "stephen@bate-man.com"
         }
     ],
     "minimum-stability": "stable",
